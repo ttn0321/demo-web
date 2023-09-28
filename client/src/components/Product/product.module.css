@@ -1,0 +1,87 @@
+.tiltle>p {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.table>thead>tr>th {
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.table>tbody>tr>td {
+    padding: 10px 20px;
+}
+
+.table>thead>tr {
+    background-color: #584E46;
+}
+
+.Image {
+    width: 20%;
+}
+.Image > img{
+    width: 100%;
+}
+.ImageUser {
+    width: 100%;
+}
+.ImageUser > img{
+    width: 100%;
+}
+.actionProd {
+    display: flex;
+    align-items: center;
+}
+
+.editProd {
+    margin-right: 10px;
+    font-size: 18px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.deleteProd {
+    margin-left: 10px;
+    font-size: 18px;
+    padding: 10px;
+    background-color: #DC3545;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.deleteProd:hover,
+.editProd:hover {
+    color: #fff;
+}
+
+.tiltle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.tiltle>p {
+    font-size: 25px;
+    color: #333;
+    letter-spacing: 2px;
+}
+
+.tiltle>a {
+    padding: 10px 15px;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+}
